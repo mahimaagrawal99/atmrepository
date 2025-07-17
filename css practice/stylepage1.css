@@ -1,0 +1,26 @@
+input,
+select {
+  margin: 5px 0 10px;
+  padding: 5px;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+header {
+  text-align: center;
+}
+body {
+  margin: 0;
+  padding: 0;
+  border-left: 40px;
+  border-right: 40px;
+  border-top: 40px;
+  border-left-color: rgb(179, 251, 251);
+  border-right-color: rgb(179, 251, 251);
+  border-top-color: rgb(179, 251, 251);
+  border-style: solid;
+  padding: 0 0 0 0;
+}

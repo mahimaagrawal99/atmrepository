@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Faculty Feedback Form</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="feedbackfrom.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>COLLEGE NAME</h1>
+        <h2>Faculty Feedback Form</h2>
+    </header>
+
+    <div class="container">
+
+        <div class="infor">
+
+            <div class="faculty">
+                <label>Faculty Name</label>
+                <input id="idname" type="text" name="facna" />
+            </div>
+
+            <div class="faculty">
+                <label>Session</label>
+                <input id="idsession" type="text" name="session" />
+            </div>
+
+            <div class="faculty">
+                <label>Course Name</label>
+                <input id="idcourse" type="text" name="courna" />
+            </div>
+
+            <div class="faculty">
+                <label>Department</label>
+                <input id="iddepart" type="text" name="department" />
+            </div>
+
+        </div>
+
+        <div class="instruction">
+            <div class="instline1">
+                <p id="id1">Instruction:</p>
+                <p id="id2">Please mark the appropriate circle</p>
+            </div>
+
+            <div class="instline2">
+                <p class="c1">Poor - 1</p>
+                <p class="c1">Average - 2</p>
+                <p class="c1">Good - 3</p>
+                <p class="c1">Excellent - 4</p>
+            </div>
+        </div>
+
+        <div class="quesheading">
+            <div class="select1">Questions</div>
+            <div class="select">Poor</div>
+            <div class="select">Average</div>
+            <div class="select">Good</div>
+            <div class="select">Excellent</div>
+        </div>
+
+        <div class="question">
+            <form>
+
+                <!-- Repeatable question block -->
+                <div class="question-block">1. Explains material clearly
+                    <input type="radio" name="ans1" value="1" />
+                    <input type="radio" name="ans1" value="2" />
+                    <input type="radio" name="ans1" value="3" />
+                    <input type="radio" name="ans1" value="4" />
+                </div>
+
+                <div class="question-block">2. Clear with subject concept
+                    <input type="radio" name="ans2" value="1" />
+                    <input type="radio" name="ans2" value="2" />
+                    <input type="radio" name="ans2" value="3" />
+                    <input type="radio" name="ans2" value="4" />
+                </div>
+
+                <div class="question-block">3. Relates subject to practical examples
+                    <input type="radio" name="ans3" value="1" />
+                    <input type="radio" name="ans3" value="2" />
+                    <input type="radio" name="ans3" value="3" />
+                    <input type="radio" name="ans3" value="4" />
+                </div>
+
+                <div class="question-block">4. Faculty subject knowledge
+                    <input type="radio" name="ans4" value="1" />
+                    <input type="radio" name="ans4" value="2" />
+                    <input type="radio" name="ans4" value="3" />
+                    <input type="radio" name="ans4" value="4" />
+                </div>
+
+                <div class="question-block">5. Regularity and Punctuality
+                    <input type="radio" name="ans5" value="1" />
+                    <input type="radio" name="ans5" value="2" />
+                    <input type="radio" name="ans5" value="3" />
+                    <input type="radio" name="ans5" value="4" />
+                </div>
+
+                <div class="question-block">6. Communication skills
+                    <input type="radio" name="ans6" value="1" />
+                    <input type="radio" name="ans6" value="2" />
+                    <input type="radio" name="ans6" value="3" />
+                    <input type="radio" name="ans6" value="4" />
+                </div>
+
+                <div class="question-block">7. Provides additional material
+                    <input type="radio" name="ans7" value="1" />
+                    <input type="radio" name="ans7" value="2" />
+                    <input type="radio" name="ans7" value="3" />
+                    <input type="radio" name="ans7" value="4" />
+                </div>
+
+                <div class="question-block">8. Clear and audible voice
+                    <input type="radio" name="ans8" value="1" />
+                    <input type="radio" name="ans8" value="2" />
+                    <input type="radio" name="ans8" value="3" />
+                    <input type="radio" name="ans8" value="4" />
+                </div>
+
+                <div class="question-block">9. Provides and maintains lesson plan
+                    <input type="radio" name="ans9" value="1" />
+                    <input type="radio" name="ans9" value="2" />
+                    <input type="radio" name="ans9" value="3" />
+                    <input type="radio" name="ans9" value="4" />
+                </div>
+
+                <div class="question-block">10. Makes topic understandable
+                    <input type="radio" name="ans10" value="1" />
+                    <input type="radio" name="ans10" value="2" />
+                    <input type="radio" name="ans10" value="3" />
+                    <input type="radio" name="ans10" value="4" />
+                </div>
+
+                <div class="additional">
+                    <label for="idcomment">Additional Comments:</label>
+                    <textarea id="idcomment" placeholder="Type your comments here..."></textarea>
+                </div>
+
+                <div class="submit">
+                    <input id="idsub" type="submit" name="submit" value="SUBMIT" />
+                </div>
+
+            </form>
+        </div>
+
+    </div>
+
+    
+
+</body>
+
+</html>

@@ -1,0 +1,130 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: url('https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?auto=format&fit=crop&w=1600&q=80') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Main container */
+.container {
+    background-color: rgba(255, 255, 255, 0.96);
+    padding: 60px 50px;
+    max-width: 550px;
+    width: 90%;
+    border-radius: 20px;
+    border: 5px solid #0a3d62;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.2);
+}
+
+/* Header styling */
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #0a3d62;
+}
+
+.header h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.header h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Admin login form */
+.admininfo {
+    font-size: 18px;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.adminname,
+.adminpassword {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+label {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    height: 45px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #0a3d62;
+}
+
+/* Submit button */
+#idlogin {
+    background-color: #0a3d62;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    align-self: center;
+}
+
+#idlogin:hover {
+    background-color: #062539;
+    transform: scale(1.05);
+}
+
+/* Responsive layout */
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 30px 20px;
+    }
+
+    .header h1 {
+        font-size: 28px;
+    }
+
+    .header h2 {
+        font-size: 20px;
+    }
+
+    label {
+        font-size: 16px;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+        font-size: 16px;
+    }
+
+    #idlogin {
+        width: 100%;
+    }
+}

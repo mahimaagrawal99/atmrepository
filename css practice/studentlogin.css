@@ -1,0 +1,111 @@
+/* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: url('https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?auto=format&fit=crop&w=1600&q=80') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container Styling */
+.container {
+    background-color: rgba(255, 255, 255, 0.96);
+    padding: 60px 50px;
+    max-width: 550px;
+    width: 90%;
+    border-radius: 20px;
+    border: 5px solid #0a3d62;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.2);
+}
+
+/* Header Styling */
+.header {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.header h1 {
+    font-size: 42px;
+    font-weight: 700;
+    color: #023e73;
+    margin-bottom: 10px;
+}
+
+.header h2 {
+    font-size: 26px;
+    font-weight: 600;
+    color: #04547f;
+}
+
+/* Student Info Form */
+.studentinfo form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 20px;
+}
+
+/* Input Fields */
+.input-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field label {
+    font-weight: 600;
+    font-size: 18px;
+    color: #04547f;
+    margin-bottom: 8px;
+}
+
+.input-field input {
+    height: 35px;
+    padding: 6px 10px;
+    border: 1.5px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+/* Login Button */
+.login {
+    display: flex;
+    justify-content: center;
+}
+
+#idlogin {
+    background-color: #04547f;
+    font-weight: 700;
+    color: white;
+    width: 120px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#idlogin:hover {
+    background-color: #022c43;
+    transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .studentinfo form {
+        padding: 0 10px;
+    }
+}

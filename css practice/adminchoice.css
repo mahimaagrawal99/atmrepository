@@ -1,0 +1,112 @@
+/* Font import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: url('https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1600&q=80') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container styling */
+.container {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 60px 40px;
+    border-radius: 20px;
+    border: 5px solid #023e73;
+    max-width: 700px;
+    width: 90%;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.3);
+}
+
+/* Header section */
+.header {
+    text-align: center;
+    color: #002b45;
+    margin-bottom: 50px;
+}
+
+.header h1 {
+    font-size: 42px;
+    font-weight: 700;
+    color: #023e73;
+}
+
+.header h2 {
+    font-size: 26px;
+    font-weight: 600;
+    color: #04547f;
+}
+
+/* Button container */
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+/* Shared button styles */
+input[type="submit"] {
+    width: 90%;
+    max-width: 320px;
+    height: 80px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background-color: #04547f;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+    padding-left: 80px;
+    background-repeat: no-repeat;
+    background-position: 20px center;
+    background-size: 45px 45px;
+    transition: all 0.3s ease;
+}
+
+/* Faculty info button background image */
+#idfacultyinfo {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/3135/3135715.png');
+}
+
+/* Feedback info button background image */
+#idfeedbackinfo {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/753/753318.png');
+}
+
+/* Hover effect */
+input[type="submit"]:hover {
+    background-color: #022c43;
+    transform: scale(1.05);
+}
+
+/* Responsive design */
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 30px 20px;
+    }
+
+    .header h1 {
+        font-size: 32px;
+    }
+
+    .header h2 {
+        font-size: 20px;
+    }
+
+    input[type="submit"] {
+        font-size: 18px;
+        padding-left: 60px;
+        background-size: 35px 35px;
+        height: 70px;
+    }
+}
+.facultyinfo{
+    padding-bottom: 5px;
+}
